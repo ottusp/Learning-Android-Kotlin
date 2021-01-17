@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">About Me</string>
+    <string name="name">Otto Fernandes</string>
+    <string name="yellow_star">Yellow star</string>
+
+    <string name="bio">
+        Hi, my name is Otto.
+
+        \n\nI love education.
+
+        \n\nAnd Computer Science as well!
+
+        \n\nI started to program when I was 18, but I have already built simple web systems using
+        different technologies, such as Spring Boot, Laravel and pure HTML, CSS and Javascript.
+
+        \n\nSomething I am really proud of is to have started to learn mandarin by myself when I was
+        16, and I am still learning today.
+
+        \n\nThis is a small lorem ipsum in order to check things out!
+
+        \n\nThis is a small lorem ipsum in order to check things out!
+
+        \n\nThis is a small lorem ipsum in order to check things out!
+
+        \n\nIf you want to know more, I will be glad to talk more about these subjects :)
+    </string>
+    <string name="avatar_description">Otto</string>
+    <string name="what_is_your_nickname">What is your nickname?</string>
+    <string name="done">Done</string>
+</resources>
