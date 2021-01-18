@@ -10,7 +10,7 @@ Since students haven't yet learned about saving data or the Android lifecycle, i
 
 ## Screenshots
 
-<img src="https://github.com/ottusp/Images/blob/master/AppTrivia/start_screen.jpg" style="width=200">
+<img src="https://github.com/ottusp/Images/blob/master/AppTrivia/start_screen.jpg" width="200">
 
 
 ## How to use this repo while taking the course
