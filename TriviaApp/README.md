@@ -10,7 +10,12 @@ Since students haven't yet learned about saving data or the Android lifecycle, i
 
 ## Screenshots
 
-<img src="https://github.com/ottusp/Images/blob/master/AppTrivia/start_screen.jpg" width="200">
+<img src="https://github.com/ottusp/Images/blob/master/AppTrivia/start_screen.jpg" width="300">
+<img src="https://github.com/ottusp/Images/blob/master/AppTrivia/drawer_menu.jpg" width="300">
+<img src="https://github.com/ottusp/Images/blob/master/AppTrivia/question.jpg" width="300">
+<img src="https://github.com/ottusp/Images/blob/master/AppTrivia/try_again.jpg" width="300">
+<img src="https://github.com/ottusp/Images/blob/master/AppTrivia/congratulations.jpg" width="300">
+<img src="https://github.com/ottusp/Images/blob/master/AppTrivia/share.jpg" width="300">
 
 
 ## How to use this repo while taking the course
