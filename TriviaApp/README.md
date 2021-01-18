@@ -10,7 +10,8 @@ Since students haven't yet learned about saving data or the Android lifecycle, i
 
 ## Screenshots
 
-![Screenshot1](screenshots/screen_1.png) ![Screenshot2](screenshots/screen_2.png)
+![Start Screen](https://drive.google.com/file/d/13YhvGo6-8xmNODelaJ4R84xIY765yvBS/view?usp=sharing = 250x) 
+
 
 ## How to use this repo while taking the course
 
