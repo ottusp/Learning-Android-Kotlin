@@ -1,19 +1,12 @@
-# First app
+# Understanding views and XML
 
 This is the toy app for lesson 3 of the [Android App Development in Kotlin course on Udacity](https://www.udacity.com/course/developing-android-apps-with-kotlin--ud9012).
 
-## Dice Roller
+## About Me
 
-The Android Trivia application is an application that asks the user trivia questions about Android development.  It makes use of the Navigation component within Jetpack to move the user between different screens.  Each screen is implemented as a Fragment.
-The app navigates using buttons, the Action Bar, and the Navigation Drawer.
-Since students haven't yet learned about saving data or the Android lifecycle, it tries to eliminate bugs caused by configuration changes. 
+This is an app that takes little interaction with the user. It is made mainly for getting familiarized with XML and views on Android environment, so it only takes some elements on Main Activity to build a scroll bar with can be used to read along text. Check [screenshots](#Screenshots) to see more.
 
 ## Screenshots
 
-<img src=https://github.com/ottusp/Images/blob/master/AppTrivia/start_screen.jpg width=300>
-<img src=https://github.com/ottusp/Images/blob/master/AppTrivia/drawer_menu.jpg width=300>
-<img src=https://github.com/ottusp/Images/blob/master/AppTrivia/question.jpg width=300>
-<img src=https://github.com/ottusp/Images/blob/master/AppTrivia/try_again.jpg width=300>
-<img src=https://github.com/ottusp/Images/blob/master/AppTrivia/congratulations.jpg width=300>
-<img src=https://github.com/ottusp/Images/blob/master/AppTrivia/share.jpg width=300>
-
+<img src=/screenshots/no_nickname.jpg width=300>
+<img src=/screenshots/with_nickname.jpg width=300>
