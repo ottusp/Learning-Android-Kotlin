@@ -8,5 +8,5 @@ This is an app that takes little interaction with the user. It is made mainly fo
 
 ## Screenshots
 
-<img src=/screenshots/no_nickname.jpg width=300>
-<img src=/screenshots/with_nickname.jpg width=300>
+<img src=screenshots/no_nickname.jpg width=300>
+<img src=screenshots/with_nickname.jpg width=300>
