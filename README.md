@@ -10,17 +10,17 @@ To run any of these apps, clone this repository, open the desired app and build 
 ## Dice Roller
 This was my "Hello World" from Android. I got almost everything done from the course, and I become more familiar with working with XML and using Kotlin to change views.
 
-You can check more details [here](https://github.com/ottusp/Learning-Android-Kotlin/tree/main/DiceRoller#first-app)
+You can check more details [here](https://github.com/ottusp/Learning-Android-Kotlin/tree/main/DiceRoller#first-app).
 
 ## About Me
 In this project I understood more about how XML works and built a simple "personal card" as an App.
 
-You can check more details [here](https://github.com/ottusp/Learning-Android-Kotlin/tree/main/AboutMe#understanding-views-and-xml)
+You can check more details [here](https://github.com/ottusp/Learning-Android-Kotlin/tree/main/AboutMe#understanding-views-and-xml).
 
 ## Color my Views
 This as is very simple and is not interactive. It only shows some blocks of text, which are combined with "good practices for building view on XML". I learned about not hardcoding values for positioning the views on the screen, which is core for developing any app.
 
-You can check more details [here](https://github.com/ottusp/Learning-Android-Kotlin/tree/main/ColorMyViews#placing-elements-on-view)
+You can check more details [here](https://github.com/ottusp/Learning-Android-Kotlin/tree/main/ColorMyViews#placing-elements-on-view).
 
 ## Trivia App
 This is an app designed to test the user knowledge on basic Android concepts. There are multiple screens, and the user can navigate through each of them as he gets right answers on
@@ -31,7 +31,7 @@ The app uses concepts of Navigation. You can check more details [here](https://g
 ## Dessert Pusher
 This is a game simpler than the old fashioned Cookie Clicker, and the game consists in the same idea: make points by clicking in an image. The purpose of this project was to learn about LifeCycle, and how the Android OS uses it to enhance performance. I could learn about the View functions onCreate(), onStart(), onResume(), onPause(), onStop() and onDestroy(), as well as to save data on changing states (like when rotating the phone).
 
-You can check more details [here](https://github.com/ottusp/Learning-Android-Kotlin/tree/main/DessertPusher#activity-lifecycle---dessertpusher)
+You can check more details [here](https://github.com/ottusp/Learning-Android-Kotlin/tree/main/DessertPusher#activity-lifecycle---dessertpusher).
 
 ## Guess it App
 This is a simple game of guessing the word that appears on the screen. With this project, I learned about the architecture MVVM, and learned how to implement ViewModel classes in Android.
