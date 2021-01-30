@@ -19,7 +19,11 @@ package com.example.android.trackmysleepquality.sleeptracker
 import android.app.Application
 import androidx.lifecycle.viewModelScope
 import androidx.lifecycle.AndroidViewModel
+import androidx.lifecycle.LiveData
+import androidx.lifecycle.MutableLiveData
 import com.example.android.trackmysleepquality.database.SleepDatabaseDao
+import com.example.android.trackmysleepquality.database.SleepNight
+import kotlinx.coroutines.*
 
 /**
  * ViewModel for SleepTrackerFragment.
@@ -28,5 +32,67 @@ class SleepTrackerViewModel(
         val database: SleepDatabaseDao,
         application: Application
 ) : AndroidViewModel(application) {
+    
+    private var viewModelJob = Job()
+    
+    private val uiScope = CoroutineScope(Dispatchers.Main + viewModelJob)
+    
+    private val tonigth = MutableLiveData<SleepNight?>()
+    
+    private val nights: LiveData<List<SleepNight>> = database.getAllNights()
+    
+    init {
+        initializeTonigth()
+    }
+    
+    private fun initializeTonigth() {
+        uiScope.launch {
+            tonigth.value = getTonightFromDatabase()
+        }
+    }
+    
+    private suspend fun getTonightFromDatabase(): SleepNight? {
+        return withContext(Dispatchers.IO) {
+            var night = database.getTonight()
+            if(night?.endTimeMilli != night?.startTimeMilli) {
+                night = null
+            }
+            
+            night
+        }
+    }
+    
+    private fun onStartTracking() {
+        uiScope.launch {
+            val newNight = SleepNight()
+            insert(newNight)
+            tonigth.value = getTonightFromDatabase()
+        }
+    }
+    
+    private suspend fun insert(night: SleepNight) {
+        withContext(Dispatchers.IO) {
+            database.insert(night)
+        }
+    }
+    
+    private fun onStopTracking() {
+        uiScope.launch {
+            val lastNight = tonigth.value ?: return@launch
+            lastNight.endTimeMilli = System.currentTimeMillis()
+            update(lastNight)
+        }
+    }
+    
+    private suspend fun update(night: SleepNight) {
+        database.update(night)
+    }
+    
+    override fun onCleared() {
+        super.onCleared()
+        viewModelJob.cancel()
+    }
+    
+    
 }
 
